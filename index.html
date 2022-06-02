@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invierno</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./assets/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">beneficios</a></li>
+          <li><a href="#">contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="menu_mobile">
+        <div class="hamburger not-active" id="hamburger_menu">
+          <div class="container" onclick="this.classList.toggle('active')">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="150"
+              height="150"
+              viewBox="0 0 200 200"
+            >
+              <g stroke-width="6.5" stroke-linecap="round">
+                <path
+                  d="M72 82.286h28.75"
+                  fill="#009100"
+                  fill-rule="evenodd"
+                  stroke="#fff"
+                />
+                <path
+                  d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                  fill="none"
+                  stroke="#fff"
+                />
+                <path
+                  d="M72 125.143h28.75"
+                  fill="#009100"
+                  fill-rule="evenodd"
+                  stroke="#fff"
+                />
+                <path
+                  d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                  fill="none"
+                  stroke="#fff"
+                />
+                <path
+                  d="M100.75 82.286h28.75"
+                  fill="#009100"
+                  fill-rule="evenodd"
+                  stroke="#fff"
+                />
+                <path
+                  d="M100.75 125.143h28.75"
+                  fill="#009100"
+                  fill-rule="evenodd"
+                  stroke="#fff"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero_section">
+      <div class="hero_section-text">
+        <h1>Bienvenidos <span>al himalaya</span></h1>
+      </div>
+      <div class="hero_section-more">
+        <p>Ver más</p>
+      </div>
+    </section>
+
+    <section class="about_section">
+      <div class="container">
+        <h2 class="section_title blueTitle"><span>Quiénes</span> somos</h2>
+        <p>
+          Somos de la banda de invierno Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Veniam fuga minima consequatur voluptatibus, optio,
+          vel eaque sed id in eveniet voluptates ducimus quia? Quod,
+          praesentium, incidunt facere in et, vero quasi minus earum sint
+          numquam perferendis architecto? Suscipit, nemo dolorem?
+        </p>
+      </div>
+    </section>
+
+    <section class="benefits_section">
+      <div class="container">
+        <h2 class="section_title blueTitle"><span>Beneficios</span></h2>
+        <div class="benefit_cardContainer">
+          <article class="benefit_card-grid">
+            <div class="benefit_card_image">
+              <img src="./assets/muneco-de-nieve.png" alt="" />
+            </div>
+            <div class="benefit_card-text">
+              <h3>Puedes usar bufanda</h3>
+            </div>
+          </article>
+
+          <article class="benefit_card-grid">
+            <div class="benefit_card_image">
+              <img src="./assets/cafe.png" alt="" />
+            </div>
+
+            <div class="benefit_card-text">
+              <h3>El café es más rico</h3>
+            </div>
+          </article>
+
+          <article class="benefit_card-grid">
+            <div class="benefit_card_image">
+              <img src="./assets/esquimal.png" alt="" />
+            </div>
+            <div class="benefit_card-text">
+              <h3>Somos más felices :)</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact_section">
+      <h2 class="section_title whiteTitle">
+        ¡Sumate al<span> #teaminvierno</span>!
+      </h2>
+      <div class="contact_formContainer">
+        <div class="contact_formContainer-img">
+          <img src="./assets/form.png" alt="" />
+        </div>
+
+        <div class="contact_formContainer-form">
+          <form action="">
+            <div class="form_item">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="form_item">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form_item">
+              <label for="telephone">Telefono</label>
+              <input type="text" name="telephone" id="telephone" />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
